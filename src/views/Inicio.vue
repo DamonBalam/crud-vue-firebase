@@ -6,6 +6,7 @@
         <router-link to="/agregar">
             <button class="btn btn-primary btn-sm btn-block">Agregar</button>
         </router-link>
+        <h3>Lista de Tareas</h3>
         <ul class="my-4 text-left list-group">
             <li v-for="tarea in tareas" :key="tarea.id" class="list-group-item">
                 {{ tarea.nombre }}
